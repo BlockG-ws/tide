@@ -2,7 +2,7 @@
 
 <h2></h2>
 
-<img src="https://github.com/IlanCosman/tide/blob/assets/images/header.png" width="50%" align="right"/>
+<img src="https://github.com/BlockG-ws/tide/blob/assets/images/header.png" width="50%" align="right"/>
 
 **The ultimate Fish prompt.**
 
@@ -12,17 +12,23 @@
 
 - **Flexible -** Pure-Fish construction means you can easily control existing content or create your own that will integrate seamlessly.
 
+## About This Fork
+
+**The goal of this fork is to maintain the prompt and make it compatible with new fish version, while adding more functions.**
+
+**The original project seems not maintained since last year. Although it still can be used in fish 4.0, it has several problems needs to be fixed**
+
 ## Installation
 
 ### System Requirements
 
-- The **latest** version of [Fish][], currently 3.6.4. <sup><sub>[Using an older version of Fish?][]</sub></sup>
+- The **latest** version of [Fish][], currently 4.0.0. <sup><sub>[Using an older version of Fish?][]</sub></sup>
 - A [Nerd Font][nerd fonts] installed and enabled in your terminal (for example the [recommended font](#fonts)).
 
 Install with [Fisher][]:
 
 ```console
-fisher install IlanCosman/tide@v6
+fisher install BlockG-ws/tide@v7
 ```
 
 <details>
@@ -32,7 +38,7 @@ This script may not work for all use cases.
 
 ```fish
 set -l _tide_tmp_dir (command mktemp -d)
-curl https://codeload.github.com/ilancosman/tide/tar.gz/v6 | tar -xzC $_tide_tmp_dir
+curl https://codeload.github.com/BlockG-ws/tide/tar.gz/v6 | tar -xzC $_tide_tmp_dir
 command cp -R $_tide_tmp_dir/*/{completions,conf.d,functions} $__fish_config_dir
 fish_path=(status fish-path) exec $fish_path -C "emit _tide_init_install"
 ```
