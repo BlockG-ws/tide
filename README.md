@@ -16,7 +16,7 @@
 
 **The goal of this fork is to maintain the prompt and make it compatible with new fish version, while adding more functions.**
 
-**The original project seems not maintained since last year. Although it still can be used in fish 4.0, it has several problems needs to be fixed**
+**The original project seems not maintained since last year. Although it still can be used in fish 4.0, it has several problems needs to be fixed.**
 
 ## Installation
 

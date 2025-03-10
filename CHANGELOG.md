@@ -1,5 +1,12 @@
 # Changelog
 
+## [v7.0.0][] (March 10 2025)
+
+### Bug fixes
+
+- Fix Fish v4.0.0 compatiblity ([#566](https://github.com/IlanCosman/tide/pull/566) - @nnungest)
+
+-- ORIGINAL --
 ## [v6.2.0][] (???)
 
 ### Features
