@@ -2,7 +2,7 @@
 
 <h2></h2>
 
-<img src="https://github.com/BlockG-ws/tide/blob/assets/images/header.png" width="50%" align="right"/>
+<img src="https://github.com/IlanCosman/tide/blob/assets/images/header.png" width="50%" align="right"/>
 
 **The ultimate Fish prompt.**
 
