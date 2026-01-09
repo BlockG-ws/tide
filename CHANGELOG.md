@@ -1,5 +1,11 @@
 # Changelog
 
+## [v7.1.0][] (Jan 9 2026)
+
+### Bug fixes
+
+- Fix prompt character ([#619](https://github.com/IlanCosman/tide/pull/619) - @scaryrawr)
+
 ## [v7.0.0][] (March 10 2025)
 
 ### Bug fixes
