@@ -1,5 +1,9 @@
 # Changelog
 
+## [v7.1.1][] (Jan 9 2026)
+
+Merged from upstream to keep up to date.
+
 ## [v7.1.0][] (Jan 9 2026)
 
 ### Bug fixes
